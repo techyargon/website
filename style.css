@@ -16,7 +16,6 @@ span {
 }
 
 .my-info {
-  height: 800px;
   width: 100%;
 }
 
@@ -109,12 +108,13 @@ span {
 .project-1 {
   height: 140px;
   width: 290px;
-  border: 2px solid white;
+  background-color: #1d1b1b;
   position: relative;
   left: 30%;
   top: 80px;
   padding: 14px;
   border-radius: 18px;
+  transition: transform 0.3s ease;
 }
 
 .project-1-name {
@@ -125,4 +125,43 @@ span {
 .project-1-about {
   color: #9ca3af;
   font-size: 16px;
+}
+
+.project-2 {
+  height: 140px;
+  width: 290px;
+  background-color: #1d1b1b;
+  position: relative;
+  left: 55%;
+  bottom: 89px;
+  padding: 14px;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+}
+
+.project-2-name {
+  color: #9ca3af;
+  font-size: 18px;
+}
+
+.project-2-about {
+  color: #9ca3af;
+  font-size: 16px;
+}
+
+.project-1:hover {
+  transform: scale(1.01);
+}
+
+.project-2:hover {
+  transform: scale(1.01);
+}
+
+.ending {
+  position: relative;
+  color: #fff;
+  left: 30%;
+  width: 250px;
+  height: 10px;
+  bottom: 50px;
 }
