@@ -117,12 +117,12 @@ span {
   transition: transform 0.3s ease;
 }
 
-.project-1-name {
+.project-name {
   color: #9ca3af;
   font-size: 18px;
 }
 
-.project-1-about {
+.project-about {
   color: #9ca3af;
   font-size: 16px;
 }
@@ -139,12 +139,12 @@ span {
   transition: transform 0.3s ease;
 }
 
-.project-2-name {
+.project-name {
   color: #9ca3af;
   font-size: 18px;
 }
 
-.project-2-about {
+.project-about {
   color: #9ca3af;
   font-size: 16px;
 }
